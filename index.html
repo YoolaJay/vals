@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Val</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.container-one').mouseenter(function () {
+                $('.card').stop().animate({
+                    top: '-90px'
+                }, 'slow');
+            }).mouseleave(function () {
+                $('.card').stop().animate({
+                    top: 0
+                }, 'slow');
+            });
+        });
+    </script>
+  </head>
+  <body>
+    <!-- <img src="assets/" alt="date?" class="header-img" /> -->
+    <div class="container-one" >  
+        <div class="valentines">
+          <div class="envelope"></div>
+          <div class="front"></div>
+          <div class="card">
+            <div class="text">Will You </br> Be My </br> Valentine's?!</div>
+            <div class="heart"></div>
+          </div>
+          <div class="hearts">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+          </div>
+          <div class="shadow"></div>
+
+        </div>
+    </div>
+
+    <div class="">
+        <div class="happy-valentines">
+            <div class="valentines-day-card">
+            <div class="clouds"></div>
+            <div class="heartss">
+                <div class="heartOne">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+                </div>
+                <div class="heartTwo">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+                </div>
+                <div class="heartThree">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+                </div>
+                <div class="heartFour">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+                </div>
+                <div class="heartFive">
+                <div class="left-side"></div>
+                <div class="right-side"></div>
+                </div>
+            </div>
+            <div class="textt"><span>Happy Valentine's</br> Day!</div>
+        </div>
+    </div>
+
+    </div>
+    <div class="container" id="container">
+      <img src="assets/erm-fingers.gif" alt="please" class="image-1" />
+      <img src="assets/oh-yay.gif" alt="yes" class="image-2 hide" />
+      <button class="btn btn-yes">Yes</button>
+      <button class="btn btn-no">No</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
