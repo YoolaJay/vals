@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 
 @keyframes upThree {
     0%, 100% {
@@ -171,7 +172,8 @@
 
   .text {
     position: absolute;
-    font-family: 'Brush Script MT', cursive;
+    /* font-family: 'Brush Script MT', cursive; */
+    font-family: 'Tangerine', serif;
     font-size: 28px;
     text-align: center;
     line-height:25px;
